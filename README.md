@@ -7,4 +7,5 @@ This is a subscription list web page project. This project was developed using V
 - Clone the repository
 - Go to the directory of the repository
 - Make sure you have npm installed, open the Command Prompt or the terminal, and run npm install to install the dependencies
+- Go to the App.vue file, fill the 'clientId' and 'clientSecret' with the provided client ID and secret or your own Sandbox PayPal client ID and secret
 - Run npm run dev
