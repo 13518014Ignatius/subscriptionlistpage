@@ -107,7 +107,7 @@ export default {
         'first_name': 'John',
         'last_name': 'Doe',
         'email': 'sb-xf347326823863@personal.example.com',
-
+        // 'password': Jt4>cuEr
       }
     }
   },
@@ -163,8 +163,10 @@ export default {
     },
     // Method to get access token 
     async getAccessToken() {
-      const clientId = 'AVoXqrAH2A1d4o3gcT5sYu95ITm-RhTKL6OyetvPU-q_gvFRn_rTxR4ccFz9h6AYRcKNhj2cdQdr_E5_';
-      const clientSecret = 'EPOKkSLn25PDCWHtUOPM-gqEdqs5CmNzCUWKd6ncr18wJhkfYOrZmgkHqwmZbAp9byKDu0ewb2wJ6tQ3';
+      // Client ID = AVoXqrAH2A1d4o3gcT5sYu95ITm-RhTKL6OyetvPU-q_gvFRn_rTxR4ccFz9h6AYRcKNhj2cdQdr_E5_
+      // Client Secret = EPOKkSLn25PDCWHtUOPM-gqEdqs5CmNzCUWKd6ncr18wJhkfYOrZmgkHqwmZbAp9byKDu0ewb2wJ6tQ3
+      const clientId = '';
+      const clientSecret = '';
       const url = 'https://api-m.sandbox.paypal.com/v1/oauth2/token';
       const auth = btoa(`${clientId}:${clientSecret}`);
       const headers = {
