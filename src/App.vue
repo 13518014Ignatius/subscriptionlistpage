@@ -165,8 +165,8 @@ export default {
     async getAccessToken() {
       // Client ID = AVoXqrAH2A1d4o3gcT5sYu95ITm-RhTKL6OyetvPU-q_gvFRn_rTxR4ccFz9h6AYRcKNhj2cdQdr_E5_
       // Client Secret = EPOKkSLn25PDCWHtUOPM-gqEdqs5CmNzCUWKd6ncr18wJhkfYOrZmgkHqwmZbAp9byKDu0ewb2wJ6tQ3
-      const clientId = '';
-      const clientSecret = '';
+      const clientId = import.meta.env.CLIENT_ID;
+      const clientSecret = import.meta.env.CLIENT_SECRET;
       const url = 'https://api-m.sandbox.paypal.com/v1/oauth2/token';
       const auth = btoa(`${clientId}:${clientSecret}`);
       const headers = {
